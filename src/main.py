@@ -3,12 +3,13 @@ from discord import File
 from discord.ext import commands
 import datetime
 from easy_pil import Editor, load_image_async, Font
+from dotenv import load_dotenv
+import os
 
 # Extracting the TOKEN securely
 
-with open("tmp.txt", "r") as file:
-    lines = file.readlines()
-    TOKEN = lines[1].strip()
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 
 # Intents are required to access certain features
@@ -19,7 +20,7 @@ intents.members = True
 
 # Creating the bot instance
 
-bot = commands.Bot(command_prefix="lux", intents=intents)
+bot = commands.Bot(command_prefix="$", intents=intents)
 
 @bot.event # online bot
 async def on_ready():
