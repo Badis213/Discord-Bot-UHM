@@ -12,5 +12,14 @@
 - Tested the welcome message functionality.
 - Verified that the bot sends the welcome message correctly when a new member joins.
 - Verifies that the bot adds the unverified member role.
+### Moderation Commands
+- Added and tested the slash commands for banning and kicking, still have to add a option time for ban.
 
 ## July 10, 2024
+
+### Moderation Commands
+- Added time option for ban.
+- Added embeds for ban and kick.
+- Added Logs for ban and kick.
+- Tested all functions.
+- Debugged the welcome message error.

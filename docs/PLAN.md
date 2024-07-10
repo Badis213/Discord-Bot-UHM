@@ -21,6 +21,7 @@
 - [ ] **Slash Commands**: Integrate slash commands for a better user experience.
 - [ ] **Points/Rewards System**: Add a points or rewards system to encourage member participation (levels and ranks on the ID card).
 - [ ] **Integration with Other APIs**: Add integrations with external APIs (e.g., weather, news, etc.).
+- [ ] **Ban and Judgment Concept**: Putting someone in a single channel when banned then do an event where people could try defending themselves in public. 
 
 ## Development Plan
 
@@ -41,6 +42,7 @@
 1. Develop the verification system with the ID card and captcha.
 2. Add custom commands and slash commands.
 3. Integrate the points/rewards system.
+4. Banishment concept.
 
 ### Phase 4: Finalization and Launch
 
