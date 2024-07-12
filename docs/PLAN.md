@@ -13,7 +13,7 @@
 - [x] **Server Connection**: Ensure the bot connects and stays online.
 - [x] **Welcome Message**: Send a personalized welcome message with a server ID card.
 - [ ] **Verification System**: Implement a unique verification system via an ID card with a captcha.
-- [ ] **Basic Commands**: Add basic commands for server management (e.g., `!ban`, `!kick`, `!mute`).
+- [x] **Basic Commands**: Add basic commands for server management (e.g., `!ban`, `!kick`, `!mute`).
 
 ### Advanced Features
 
@@ -40,9 +40,8 @@
 ### Phase 3: Advanced Features
 
 1. Develop the verification system with the ID card and captcha.
-2. Add custom commands and slash commands.
-3. Integrate the points/rewards system.
-4. Banishment concept.
+2. Add custom tribunal command.
+3. Integrate the points/rewards and levels system.
 
 ### Phase 4: Finalization and Launch
 
@@ -58,15 +57,17 @@
 - [x] Setup of the development environment.
 - [x] Basic connection of the bot to the Discord server.
 - [x] Implementation of the welcome message.
+- [x] Addition of basic commands for member management.
+
 
 ### Ongoing Tasks
 
-- [ ] Addition of basic commands for member management.
+- [ ] Add a better log system on the terminal with ANSI text. (25%...)
 
 ### Future Tasks
 
 - [ ] Development of the verification system.
-- [ ] Integration of custom commands and slash commands.
+- [ ] Integration of custom tribunal command and ID Card command.
 - [ ] Implementation of the points/rewards system.
 
 ## Notes and Remarks

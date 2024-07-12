@@ -23,3 +23,9 @@
 - Added Logs for ban and kick.
 - Tested all functions.
 - Debugged the welcome message error.
+
+## July 12, 2024
+
+### Moderation Commands
+- Added mute and umute. Not tested on real human, but no error when tested on bots.
+- Started changing the logs that are printed when any action (member join, on ready, mute, ban, kick...) with ANSI, colours etc...  [optional]
